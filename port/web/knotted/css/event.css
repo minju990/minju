@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#container{
+    padding: 0 15px;
+    }
+/* #container .cust_txt{display: flex; margin-left: 15px;margin-bottom: 70px;} */
+#container h2{
+    font-size: 30px;
+    color: var(--tit);
+    text-align: center;
+    padding: 40px 0 30px;
+    font-weight: 700;
+}
+
+/* #container .event_btn_back{width: 15px;} */
+#container .event_sub_menu{margin-bottom: 70px;}
+#container .event_menu_txt{display: flex;
+    justify-content: space-around;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    width: 283px;
+    margin: 0 auto;
+    padding: 5px;
+    height: 50px;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+#container .event_menu_txt li{width: calc(100%/2 - 5px);                       
+    text-align:center ;
+    }
+
+#container .event_wrap{width: 90%; margin: 0 auto;margin-bottom: 70px;}
+#container .le img{height: 221px;}
+#container .event_list li{margin-bottom: 30px;}
+#container .event_img .event_im{border-radius: 20px;}
+#container .ev{position: relative;text-align: center;}
+#container .ev .event_text{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+position: absolute;left: 50%;top: 10%;
+transform: translateX(-50%);
+}
+#container .event_pick .event_insta .event_star .event_str{color:#424242}
+#container .event_pick .event_a{font-size:14px ;color: #3B895B;}
+#container .event_pop .event_str{color:#7A4441}
+#container .event_pop .event_a{font-size:14px ;color: #7A4441;}
+#container .event_insta .event_a{font-size:14px ;color: #EC6B6B;}
+#container .event_stra .event_a{font-size: 14px;}
+#container .event_stra .event_text{padding-top: 30px;}
+
+#container .event_menu_txt li.active{
+    background: #EC6B6B;color:#fff;
+    padding: 2px 2px;
+    line-height: 2;
+    border-radius: 50px;
+  }

@@ -1,0 +1,36 @@
+@charset "utf-8";
+#container{
+    text-align: center;
+}
+#container .completed_check{
+    width: 83px;
+    height: 83px;
+    background: var(--str);
+    border-radius: 50%;
+    margin: 70px auto 30px;
+}
+#container .completed_check img{
+    transform: translateY(26px);
+    filter: invert();
+}
+#container p{
+    font-size: 20px;
+    color: var(--darkColor);
+}
+#container .completed_pa{
+    padding-bottom: 10px;
+}
+#container .completed_16px{
+    font-size: 16px;
+}
+#container .completed_btn{
+    padding-top: 30px; 
+}
+#container .completed_btn button{
+    width: 232px;
+    height: 48px;
+    background: var(--str);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}

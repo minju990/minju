@@ -1,0 +1,198 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@font-face {
+    font-family: "Pretend";
+    src: url(../font/PretendardGOV-Bold.woff)
+         url(../font/PretendardGOV-Black.woff)
+        url(../font/PretendardGOV-Regular.woff);   
+}
+
+*, *::after, *::before{box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, main, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 100%;
+    font:  inherit; */
+    color:inherit;
+    vertical-align: baseline;
+}
+input{border: 0;}
+ul, ol{list-style: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table{border-collapse: collapse;
+	border-spacing: 0;}
+a{text-decoration: none; color: inherit;}
+img{max-width: 100%;}
+.blind{position: absolute; width:1px; height: 1px;
+    margin: -1px; overflow: hidden;
+    clip: rect(0 0 0 0);}
+:root{--main:#FFB2B2;
+      --main2:#EC6B6B;
+      --boxcolor:#FFF2F2;
+      --midcolor:#424242;
+      --darkcolor:#0F0F0F;
+      --samllcolor:#7C7C7C;
+      --snscolor:#69B7FF;
+      --titiecolor:#3B895B;
+}
+textarea, select,input, button{border: 0;outline: 0; 
+    background: transparent;border-radius: 0; appearance: none; 
+    }
+    body{font-size: 16px; color: #424242;
+        font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;;
+        line-height: 1.5;} 
+.inner{width: 375px; margin: 0 auto; height: 100%;}
+#container{
+    padding: 0 15px;
+    margin-bottom: 70px;
+    }
+.container{
+    width: 100%; 
+    opacity: 50%;
+}
+
+.sub_top{position: relative;
+    margin-top: 40px;}
+.btn_back{width: 20px; height: 20px;
+    color: var(--darkcolor);
+    
+    
+}
+.submenu_wrap{
+width: calc(100% - 40%);
+position: absolute;
+left: 20%; top:25%;
+
+}
+.living_sub{
+display: flex;
+justify-content: space-between;
+}
+.living_sub li{width: calc(100% - 40%);}
+.living_sub li a{
+background: #fff;
+color: var(--darkcolor);
+padding: 5px 15px;
+}
+.living_sub li a.on{
+background: var(--main2);
+color: #fff;
+border-radius: 50px;}
+/* .sub_top{position: relative;
+        margin-top: 40px;}
+        
+.btn_back{width: 20px; height: 20px;
+        color: var(--darkcolor);
+        margin-left: 20px;
+    }
+.submenu_wrap{
+    width: calc(100% - 40%);
+    position: absolute;
+    left: 20%; top:25%;
+}
+.living_sub{
+    display: flex;
+    justify-content: space-between;
+    }
+.living_sub li{width: calc(100% - 40%);}
+.living_sub li a{
+        background: #fff;
+        color: var(--darkcolor);
+        padding: 5px 15px;
+    }
+.living_sub li a:hover, .living_sub li a:focus, .living_sub li a.on{
+        background: var(--main2);
+        color: #fff;
+        border-radius: 50px;
+    } */
+
+.cate_tit{text-align: center;
+         font-size: 30px;
+        font-weight: 700;
+        color: var(--titiecolor);
+        margin-top: 50px;
+        margin-bottom: 25px;}
+.shop_menu{
+    position: relative;
+    width: 210px;
+    background: var(--boxcolor);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 20px 20px; 
+}
+.shop_wrap .des{
+    font-weight: 700;
+    color: var(--midcolor);
+    margin-top: 8px;
+    text-align: left;
+    
+}
+.shop_wrap .des p{
+    font-size: 14px;
+    color: var(--midcolor);
+ 
+} 
+
+.thum img{
+     max-width: 100%;
+    max-height: 100%;
+    }
+.heart{width: 18px; height: 16px;
+      position: absolute;
+      right: 14%; top: 15%;
+      transform: translate(55%, -60%);
+}
+
+.shop_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+
+}
+.shop_wrap .shop_menu{
+    width: calc(100%/2 - 14px);
+    margin-bottom: 20px;
+}
+.shop_wrap .shop_menu .thum{
+    text-align: center;
+    margin-top: 30px;
+}
+.shop_wrap .heart{
+    width: 18px; height: 16px;
+    position: absolute;
+    right: 14px; top: 15px;
+    transform: translate(-10%, -10%);}
+
+.shop_wrap  .des{
+    font-weight: 700;
+    color: var(--midcolor);
+    margin-top: 8px;
+
+}
+.shop_wrap  .shop_menu p{
+    font-size: 14px;
+    color: var(--midcolor);
+    }
+
+ 
+

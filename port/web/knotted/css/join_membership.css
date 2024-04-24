@@ -1,0 +1,75 @@
+@charset "utf-8";
+#content label{
+    color: var(--darkColor);
+}
+#content li{
+    margin-top: 30px;
+}
+#content input{
+    padding: 5px;
+}
+#content .join_box{
+    border-bottom: 1px solid #dadada;
+    width: 327px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: var(--lightColor);
+}
+#content #userId{
+    position: relative;
+}
+#content .userId_btn{
+    position: absolute;
+    right: 32px; top: 46px;
+    width: 70px; height: 30px;
+    background: #dadada;
+    border-radius: 5px;
+    font-size: 12px;
+    color: var(--darkColor);
+}
+#content .eye_btn{
+    position: absolute;
+    right: 34px;
+}
+#content.user_str{
+    color: var(--main);
+}
+#content #userGen{
+    margin-top: 10px;
+}
+#content .userGen_m{
+    margin-left: 20px;
+}
+#content .agree_str{
+    font-size: 18px;
+    font-weight: 700;
+}
+#content .mr{
+    margin-top: 10px;
+}
+#content .user_radio{
+    position: relative;
+}
+#content .user_radio .co{
+    font-size: 14px;
+    color: var(--lightColor);
+}
+#content .more_txt_area{
+    position: absolute;
+    right: 15px; top: 4px;
+    font-size: 14px;
+}
+#content .user_radio label{
+    padding-left: 2px;
+}
+#content .join_btn{
+    width: 327px; height: 48px;
+    background: var(--str);
+    border-radius: 50px;
+    margin: 70px 0;
+    font-size: 18px;
+    color: #fff;
+}
+#content .user_radio input{
+    appearance: radio;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>Knotted</title>
+    <link rel="stylesheet" href="./css/log_css/common1.css">
+    <link rel="stylesheet" href="./css/log_css/login_common_header.css">
+    <link rel="stylesheet" href="./css/log_css/login_common.css">
+    <link rel="stylesheet" href="./css/log_css/non-member.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_area">
+            <button type="button" class="btn_back" onclick="location.href='./index.html'">
+                <img src="./images/common/left_arrow.svg" alt="">
+            </button>
+            <span class="completed_tit">로그인</span>
+        </div>
+    </header>
+    <main id="container">
+        <div class="login_menu">
+            <p class="left"><a href="./login.html">회원 로그인</a></p>
+            <p class="right"><a href="./non-member.html">비회원 주문조회</a></p>
+        </div>
+        <form action="#">
+            <ul>
+                <li class="login_border">
+                    <label for="loginId">주문자명</label>
+                    <input type="text" id="loginId" name="loginId" placeholder="영문 6~12자" class="login_box">
+                </li>
+
+                <li class="login_border">
+                    <label for="orderNum">주문번호</label>
+                    <input type="text" id="orderNum" name="orderNum" placeholder="숫자  6~12자 입력" class="login_box">
+                </li>
+
+                <li class="login_border">
+                    <label for="loginPw">비밀번호</label>
+                    <input type="password" id="loginPw" name="loginPw" placeholder="영문,특수문자,숫자혼합 6~12자" class="login_box">
+                    <button type="button" class="pw_eye">
+                        <img src="./images/common/eye-off.svg" alt="">
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" class="login_btn" onclick="location.href='./index.html'">비회원 주문조회</button>
+                </li>
+            </ul>
+        </form>
+        </main>
+    <script src="./js/log_js/login.js"></script>
+</body>
+</html>

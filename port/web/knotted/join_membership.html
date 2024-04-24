@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1, maximum-scale=1">
+    <title>Knotted</title>
+    <link rel="stylesheet" href="./css/log_css/common1.css">
+    <link rel="stylesheet" href="./css/log_css/completed_common_header.css">
+    <link rel="stylesheet" href="./css/log_css/join_membership.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_area">
+            <button type="button" class="btn1_back" onclick="location.href='./index.html'">
+                <img src="./images/common/close.svg" alt="닫기">
+            </button>
+            <span class="completed_tit">회원가입</span>
+        </div>
+    </header>
+    <main id="container">
+        <div class="in">
+            <form action="#">
+                <fieldset>
+                    <ul>
+                        <li>
+                            <label for="userId">아이디</label>
+                            <div class="userId_wrap">
+                                <input type="text" name="userId" id="userId" placeholder="영문,소문자와 숫자포함 6~12자" class="join_box">
+                                <button class="userId_btn">중복확인</button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <label for="userPw">비밀번호</label>
+                            <div class="userPw_wrap">
+                                <input type="password" name="userPw" id="userPw" placeholder="영문,소문자와 숫자,특수문자 포함 6~12자" class="join_box">
+                                <button class="eye_btn">
+                                    <img src="./images/common/eye-off.svg" alt="">
+                                </button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <label for="userPw2">비밀번호 확인</label>
+                            <div class="userPw_wrap">
+                                <input type="password" name="userPw2" id="userPw2" placeholder="비밀번호를 한번 더 입력해주세요" class="join_box">
+                                <button class="eye_btn">
+                                    <img src="./images/common/eye-off.svg" alt="">
+                                </button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <label for="userName">이름<span class="user_str">*</span></label>
+                            <input type="text" name="userName" id="userName" placeholder="이름(실명)을 입력해주세요" class="join_box">
+                        </li>
+
+                        <li>
+                            <label for="userTell">연락처<span class="user_str">*</span></label>
+                            <input type="tel" name="userTell" id="userTell" placeholder="‘ - ’ 구분없이 입력해주세요" class="join_box">
+                        </li>
+
+                        <li>
+                            <label for="userMail">이메일 주소</label>
+                            <input type="email" name="userMail" id="userMail" placeholder="영문,소문자와 숫자포함 6~12자" class="join_box">
+                        </li>
+
+                        <li class="user_radio">
+                            <p>성별</p>
+                            <input type="checkbox" name="userGenW" id="userGenW" value="woman" class="userGen_w check">
+                            <label for="userGenW">여자</label>
+                            <input type="checkbox" name="userGenM" id="userGenM" value="man" class="userGen_m">
+                            <label for="userGenM check">남자</label>
+                        </li>
+
+                        <li class="user_radio">
+                            <input type="checkbox" name="userAgre" id="userAgre" class="check">
+                            <label for="userAgre" class="agree_str">모두 동의합니다.</label>
+                        </li>
+                        
+                        <li class="user_radio mr">
+                            <input type="checkbox" name="userAgree2" id="userAgree2" class="agrees check">
+                            <label for="userAgree2">이용약관 동의 <span class="co">(필수)</span></label>
+                            <div class="more_txt_area">
+                                <i class="more_txt">보기</i>
+                                <img src="./images/common/right_arrow.svg" alt="" class="more_arrow more_str">
+                            </div>
+                        </li>
+
+                        <li class="user_radio mr">
+                            <input type="checkbox" name="userAgree3" id="userAgree3" class="agrees check">
+                            <label for="userAgree3">개인정보 취급방침 동의 <span class="co">(필수)</span></label>
+                            <div class="more_txt_area">
+                                <i class="more_txt">보기</i>
+                                <img src="./images/common/right_arrow.svg" alt="" class="more_arrow">
+                            </div>
+                        </li>
+
+                        <li class="user_radio mr">
+                            <input type="checkbox" name="userAgree4" id="userAgree4" class="agrees check">
+                            <label for="userAgree4">마케팅 정보 수신 동의 <span class="co">(선택)</span></label>
+                            <div class="more_txt_area">
+                                <i class="more_txt">보기</i>
+                                <img src="./images/common/right_arrow.svg" alt="" class="more_arrow">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="join_btn_area">
+                        <button type="button" class="join_btn" onclick="location.href='./join_completed.html'">가입하기</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <script src="./js/join_membership.js"></script>
+        <script src="./js/arrow_back.js" ></script>
+    </main> 
+</body>
+</html>

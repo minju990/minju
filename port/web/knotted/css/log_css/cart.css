@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+input{
+    appearance: checkbox;
+}
+#header{
+    border-bottom: 1px solid #d2d2d2;
+    padding: 20px 15px;
+}
+#header .completed_tit{
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 124px;
+}
+#container{
+    margin: 30px auto;
+    font-size: 18px;
+    color: var(--darkColor);
+}
+#container .cart_deli{
+    border-bottom: 2px solid var(--midColor);
+    padding-bottom: 5px;
+}
+#container .checkbox_order{
+    position: relative;
+}
+#container .cart_sel{
+    display: flex;
+    justify-content: space-evenly;
+}
+#container .cart_check{
+    padding: 30px 0 20px;
+    border-bottom: 2px solid #dadada;
+}
+#container .cart_de{
+    transform: translateX(196px);
+    color: var(--lightColor);
+    font-size: 16px;
+}
+#container .milky{
+    width: 70px; height: 70px;
+    vertical-align: top;
+    margin: 12px 12px 20px;
+}
+#container .checkbox_order{
+    margin-top: 20px;
+}
+#container .cart_txt{
+    padding-top: 20px;
+    font-size: 16px;
+}
+#container .minus_btn_p{
+    position: absolute;
+    top: 0; right: 0;
+}
+#container .cart_num{
+    display: flex;
+    margin-left: 34px;
+}
+#container .cart_num .cart_btn{
+    border: 1px solid var(--lightColor);
+    width: 20px; height: 20px;
+    text-align: center;
+}
+#container .cart_num .n{
+   display: block;
+   margin-left: 4px;
+}
+#container .cart_num .cart_num_txt{
+    font-size: 14px;
+    border: 1px solid var(--lightColor);
+    width: 20px; height: 20px;
+    text-align: center;
+}
+#container .cart_num_btn{
+    display: flex;
+    justify-content: space-between;
+}
+#container .cart_pri{
+    font-weight: 700;
+}
+#container .cart_total_area{
+    padding-top: 30px;
+}
+#container .car_total{
+    padding-bottom: 10px;
+}
+#container .car_total3{
+    font-weight: 700;
+}
+#container .car_total{
+    display: flex;
+    justify-content: space-between;
+}
+#container .cart_order_btn{
+    text-align: center;
+    width: 295px; height: 40px;
+    background: var(--str);
+    border-radius: 50px;
+    margin: 30px auto;
+}
+#container .order_btn{
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+}

@@ -1,0 +1,76 @@
+@charset "utf-8";
+#container label{
+    color: var(--darkColor);
+}
+#container li{
+    margin-top: 30px;
+}
+#container input{
+    padding: 5px;
+}
+#container .join_box{
+    border-bottom: 1px solid #dadada;
+    width: 327px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: var(--lightColor);
+}
+#container #userId{
+    position: relative;
+}
+#container .userId_btn{
+    position: absolute;
+    right: 32px; top: 120px;
+   
+    width: 70px; height: 30px;
+    background: #dadada;
+    border-radius: 5px;
+    font-size: 12px;
+    color: var(--darkColor);
+}
+#container .eye_btn{
+    position: absolute;
+    right: 34px;
+}
+#container .user_str{
+    color: var(--main);
+}
+#container #userGen{
+    margin-top: 10px;
+}
+#container .userGen_m{
+    margin-left: 20px;
+}
+#container .agree_str{
+    font-size: 18px;
+    font-weight: 700;
+}
+#container .mr{
+    margin-top: 10px;
+}
+#container .user_radio{
+    position: relative;
+}
+#container .user_radio .co{
+    font-size: 14px;
+    color: var(--lightColor);
+}
+#container .more_txt_area{
+    position: absolute;
+    right: 15px; top: 4px;
+    font-size: 14px;
+}
+#container .user_radio label{
+    padding-left: 2px;
+}
+#container .join_btn{
+    width: 327px; height: 48px;
+    background: var(--str);
+    border-radius: 50px;
+    margin: 70px 0;
+    font-size: 18px;
+    color: #fff;
+}
+#container .user_radio input{
+    appearance: checkbox;
+}

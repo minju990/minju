@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+@font-face{font-family: "noto"; src: url(../font/NotoSansKR-Regular.woff) format("woff");}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+ul{list-style: none;}
+a, span, i{display: inline-block;}
+img, video{max-width: 100%;}
+:root{--txt: #1f1f1f;
+      --h1: #000;
+      --h2: #743a00;
+      --btn: #e05823;}
+html{font-size: 10px;}
+.in{padding: 0 10px; min-width: 375px;
+    height: 100%; margin: 0 auto;}
+
+body{font-size: 1.4rem;
+     color: var(--txt);
+     font-family: "noto", sans-serif;
+    min-width: 375px;}
+#header{background: #e3b604;
+        position: relative;}
+#header .logo{width: 18.8202%/*67px*/;
+              position: absolute;
+              right: 0; top: 20px;
+              margin-right: 10px;}
+#header .pic{width: 100%; display: flex;
+             justify-content: center; }
+#header .pic img{display: block;}
+#header .visual_txt{position: absolute; left:50%; top:20%;
+                    transform: translateX(-50%);
+                    width:90%;
+                    text-align: center;}
+#header .airplane{width: 28.65168%/*102px*/;
+                  position: absolute; left:0; top: -50px;}
+#header .visual_txt p{font-size: 2rem; 
+                      margin-bottom: 10px;}
+#header .visual_txt h1{font-size: 4rem; 
+                       line-height: 1.2;
+                        margin: 0 0 20px;}
+#header .visual_btn{width: 223px; height: 41px; 
+                    display: inline-block;
+                    border-radius: 10px;
+                    background: var(--btn);}
+#header .visual_btn .btn_txt{font-size: 1.6rem;
+                             color: #fff;
+                             line-height: 41px;}
+#container .pt{padding-top: 80px;}
+#container .mr_20{margin: 20px auto 0;}
+#container .txt_area{text-align: center;}
+#container .txt_area h2{color: var(--h2);
+                        font-size: 2.5rem;
+                        font-weight: 700;}
+#container .txt_area p{width: 60%;
+                       margin: 30px auto} 
+#container .row1_img{width: 49.2957746% /*175px*/;}
+#container .row1_img img{display: block;}
+#container .row2{background: #f4f4f4;}
+#container .row2 .row2_img{width: 68.45070% /*243px*/;}
+#container .row3 .row3_img{width: 89.3333%; text-align: center;}/*수정*/
+#container .row3 .row3_img img{width: 41.97183% /*149px*/;
+                               display: block;
+                               margin: 0 auto;}
+#container .row3 .txt_bg{padding: 0 10px;
+                         background: #c2f1fe;
+                         border-radius: 40px;
+                         margin-bottom: 80px;
+                         display: inline-block;}/*수정*/
+#container .row3 .txt_bg h3{font-size: 1.4rem;
+                            text-align: center; 
+                            padding: 30px 0 20px;}
+#container .row3 .txt_bg .list{display: flex; justify-content: space-around;
+                               font-size: 1.2rem;
+                               text-align: center;}
+#container .row3 .txt_bg .list .circle{width: 86px; height: 86px;
+                                       background: #96e8ff;
+                                       border-radius: 50%;
+                                       display: flex; align-items: center;
+                                       margin-bottom: 34px;} 
+#container .row4{background: #e3b604; 
+                 padding: 40px 0;}   
+#container .row4 .video{text-align: center;}    
+#container .row4 .video img{width: 240px;
+                            /*margin: 0 auto 20px;*/}/*수정*/
+#container .row4 .txt_area .txt{font-size: 2.8rem;
+                                margin-bottom: 40px;}
+#container .row4 .txt_area .btn{width: 248px; height: 47px;
+                                background: var(--btn);
+                                border-radius: 10px;
+                                margin: 0 auto;}
+#container .row4 .txt_area .btn .btn_txt{font-size: 22px;
+                                         color: #fff; 
+                                         text-align: center;
+                                         line-height: 47px;}
+#footer{font-size: 12px;}
+#footer .pad{padding: 50px 0;}
+#footer .list{list-style: disc inside;}
+
+/*선택자가 틀림*/
+#footer .bg {background: #dbdbdb; padding: 0 10px;}
+#footer  .info .info_top{padding-bottom: 10px;}
+
+
+@media screen and (min-width:768px){body{font-size: 20px;}
+                                    #header .logo{width: 12.36979%/*95px*/;}
+                                    #header .airplane img{width: 133px;
+                                                          position: absolute; left: 60%;}
+                                    #header .visual_txt{width: 753px;
+                                                        position: absolute; top: 24%; 
+                                                        transform: translateX(-30%);}
+                                    #header .visual_txt p{font-size: 2.4rem;}
+                                    #header .visual_txt h1{font-size: 5rem; 
+                                                           margin-bottom: 94px;}
+                                    #header .visual_btn{width: 342px; height: 63px;}
+                                    #header .visual_btn .btn_txt{font-size: 2.8rem;
+                                                                 line-height: 63px;}
+                                    #container .txt_area h2{font-size: 5rem;}
+                                    #container .row1_img{width: 358px;}
+                                    #container .row2 .row2_img{width: 390px;}
+                                    #container .row3 .row3_img{width: 94.10112%;}
+                                    #container .row3 .row3_img img{width: 303px;
+                                                                  display: block;}
+                                    #container .row3 .txt_bg{width: 680px;
+                                                             padding: 0 36px;}
+                                    #container .row3 .txt_bg h3{font-size: 28px;
+                                                                padding: 66px 0 40px;}
+                                    #container .row3 .txt_bg .list{font-size: 18px;
+                                                                   display: flex; justify-content: space-evenly;
+                                                                   text-align: center;}
+                                    #container .row3 .txt_bg .list .circle{width: 140px; height: 140px;
+                                                                           margin-bottom: 74px;} 
+                                    
+                                    #container .row4 .fl{display: flex; justify-content: space-around;}
+                                    #container .row4 .video img{width: 312px;}
+                                    #container .row4 .video{order: 2;}
+                                    #container .row4 .txt_area{order: 1;
+                                                               transform: translateY(30%);}
+                                    #container .row4 .txt_area .txt h2{font-size: 3.4rem;
+                                                                       width: 325px;
+                                                                       text-align: left;}
+                                    #container .row4 .txt_area .btn{width: 290px; height: 56px;
+                                                                    margin: 0;}/*수정*/
+                                    #container .row4 .txt_area .btn .btn_txt{font-size: 26px;
+                                                                             line-height: 56px;}
+                                    #footer{font-size: 14px;}}
+      
+@media screen and (min-width:1228px){body{font-size: 2.6rem;}
+                                    .in{width:96%; max-width: 1000px;}
+                                    #header .visual_txt{position: absolute; top: 24%; 
+                                                        transform: translateX(-30%);}
+                                    #header .visual_txt p{font-size: 3.2rem;}
+                                    #header .visual_txt h1{font-size: 6rem; 
+                                                           margin-bottom: 40px;}
+                                    #header .visual_btn{height: 80px;}
+                                    #header .visual_btn .btn_txt{font-size: 2.8rem;
+                                                                 line-height: 80px;}
+                                    #container .txt_area h2{font-size: 6rem;}
+                                    #container .row3 .row3_pa{padding-right: 60px}
+                                    #container .row3 .row3_img img{width: 414px;
+                                                                   display: block;}
+                                    #container .row3 .txt_bg{width: 876px;
+                                                             padding: 0 50px}
+                                    #container .row3 .txt_bg h3{font-size: 36px;}
+                                    #container .row3 .txt_bg .list{font-size: 24px;}
+                                    #container .row3 .txt_bg .list .circle{width: 180px; height: 180px;} 
+                                    #container .row4{padding: 100px 0;}
+                                    /* #container .row4 .fl{background: #e05823;
+                                                            display:flex; justify-content: space-around;}*/ 
+                                                            /*width값을 늘려도 안늘려짐*/
+                                    #container .row4 .video img{width: 414px;}
+                                    #container .row4 .video{order: 2;}
+                                    #container .row4 .txt_area{order: 1;}
+                                    #container .row4 .txt_area .txt h2{font-size: 6rem;
+                                                                       width: 600px;
+                                                                       text-align: left;}
+                                    #container .row4 .txt_area .btn{width: 380px; 
+                                                                    height: 70px;} /*버튼 왼쪽정렬이 안됌*/
+                                    #container .row4 .txt_area .btn .btn_txt{font-size: 36px;
+                                                                             line-height:70px;}
+                                    #footer{font-size: 16px;}}  
+                                    /*배경색 펼치기*/                                                            
+

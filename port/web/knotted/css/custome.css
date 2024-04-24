@@ -1,0 +1,64 @@
+@charset "utf-8";
+#container{
+    padding: 0 15px;
+    margin-bottom: 70px;
+    }
+/* #container .cust_txt{display: flex; margin-left: 15px;margin-bottom: 70px;} */
+#container h2{
+    font-size: 30px;
+    color: var(--tit);
+    text-align: center;
+    padding: 40px 0 30px;
+    font-weight: 700;
+}
+
+#container .cust_menu_txt{display: flex;
+    justify-content: space-around;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    width: 283px;
+    height: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+#container .cust_sub_menu{margin-bottom: 70px;}
+#container .cust_menu_txt li{width: calc(100%/2 - 5px);                       
+    /* line-height: 40px; */
+    text-align:center ;
+    }
+/* #container .cust_menu_txt li:hover{
+    background: #EC6B6B;
+    border-radius: 50px;
+    line-height: 1.5;
+    
+    } */
+#container .content{margin: 0 10px;}
+#container .cust_right_arrow{width: 12px;height: 7px;}
+#container .cust_list{position: relative;font-size: 18px;font-weight: 400;margin-bottom: 30px;}
+
+#container .cust_Q{display: flex;justify-content: space-between;margin-bottom: 10px;font-size: 16px;}
+#container .cust_Q p{width:310px}
+#container .cust_Q .cust_right_arrow{line-height: 1.2;}
+#container .cust_a{width: 310px;display: none;font-size: 16px;}
+#container .cust_a i{padding-left: 15px;font-size: 14px;}
+#container .cust_line{margin-top: 3px; border-top: 1px solid #dadada;}
+#container .number{width: 120px; margin: 0 auto;vertical-align: middle;}
+#container .number_list{display: flex;flex-wrap: nowrap;}
+#container .number_list li{width: calc(100%/4 - 5px);font-size: 18px;}
+#container .number .p1{font-weight: 700;}
+#container .number .p2{font-weight: 700;}
+/* #container .cust_left_arrow{width:17px;height: 10px;}
+#container .cust_right_arrow{width:17px;height: 10px;} */
+#container .arr{width: 15px;height: 15px;color: #0F0F0F;}
+/* 자바 */
+#container .cust_Q.active + .cust_a{display: block;}
+#container .cust_Q.active .cust_right_arrow{transform: rotate(180deg);margin-top: 18px;}
+#container .cust_menu_txt li.active{
+    background: #EC6B6B;
+    border-radius: 50px;
+    padding: 2px 2px;
+    line-height: 2;
+    color: #fff;
+}

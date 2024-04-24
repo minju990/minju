@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+:root{--main: #ff6450;
+    --midColor: #5c5c5c;
+    --darkColor:#1a1a1a;}
+
+
+#container .slide1{width: 100%; height: 658px;
+                   background: #e9e382 url(../images/main/slide1.png) no-repeat center top;
+                   overflow: hidden; min-width: 1400px;}
+#container .slide .inner{position: relative;}  
+#container .slide1 .visual_txt{position: absolute; right: 0; top: 200px; line-height: 1;}
+#container .slide1 .visual_txt span{display: block;}
+#container .slide1 .visual_txt p{font-size: 66px; color: #fff}
+#container .slide1 .visual_txt h2{font-size: 110px; color: #2e7100;
+                                  font-weight: 700;} 
+/* #container .visual .arrow .before{position: absolute; left: 46px; top: 474px;}
+#container .visual .arrow .next{position: absolute; right: 46px; top: 474px;} */
+/* #container .visual .pagenation{position: absolute; bottom: 40px;}
+#container .visual .pagenation .page{width: 20px; height: 20px;
+                                     border-radius: 50%; background: #ff6450;} */
+#container .sec h2{font-size: 50px; color: var(--darkColor);
+                   text-align: center;
+                   margin-bottom: 70px;}
+#container .best{padding-top: 100px;}
+#container .best_txt p{font-size: 20px; width: 454px;
+                       margin-top: 30px;}
+#container .best_txt>a{display:block; 
+                       font-size: 18px;
+                       margin-top: 50px;}
+#container .best_txt>a>img{margin-left: 20px;}
+#container .best_list{display: flex; justify-content: space-between;}
+#container .best_list .right{width: 679px;}
+#container .best_list .right_img{display: flex; justify-content: space-between;
+                                 padding-top: 40px; position: relative;}
+#container .best_list .right_img .txt{font-size: 20px;}
+#container .best_list .right_img .txt h3{font-weight: 700; color: var(--darkColor);}
+#container .best_list .right_img .color{width: 319px; height: 72px;  background: #ffffff69;
+                                        position: absolute; bottom: -72px;
+                                        transition: bottom 0.3s;}
+#container .best_list .right_img .color .circle{width: 27px; height: 27px; border-radius: 50%; background: #464646;
+                                                margin: 23px 14px;}
+#container .best_list .right_img .color .moca{background: #e5d7c5;}
+#container .best_list .right_img .color .cream{background: #fff5df;}
+#container .best_list .right_img .color .purple{background: #dabfe8;}
+#container .best_list .right_img .color .ivory{background: #fdf7e9;}
+#container .best_list .right_img .hi{position: relative;
+                                     overflow: hidden;}     
+#container .best_list .right_img .img:hover .color{bottom: 0;}
+#container .best_list .right_img img{display: block;} 
+
+#container .new h2{margin-top: 160px;}
+#container .new .new_top{display: flex; justify-content: space-between;}
+#container .new .tit{font-size: 36px; color: var(--darkColor);
+                     font-weight: 700; padding-top: 130px;
+                     padding-bottom: 10px;}
+#container .new .num{font-size: 30px; color: var(--midcolor);}
+#container .new p{width: 562px;
+                  font-size: 22px; padding-top: 130px;}
+#container .new .btn{display: block; 
+                     font-size: 20px;
+                     padding-top: 50px;}
+#container .new .btn>img{margin-left: 20px; vertical-align: 3px;}
+#container .new .fl{display: flex; justify-content: space-between;
+                    margin-bottom: 60px;}
+#container .new .new_center> .txt{order: 2;}
+#container .new .new_center> .thum{order: 1;}
+#container .store{background: #efd3cd;
+                  text-align: center;}
+#container .store h2{padding-top: 50px;
+                     margin-bottom: 20PX;
+                     font-weight: 700;}
+#container .store P{font-size: 30PX; color: var(--darkColor);
+                    margin-bottom: 60px;}
+#container .store .btn_view{border: 1px solid var(--main);
+                            color: var(--main);
+                            padding: 20px 70px;}
+#container .store img{padding-top: 50px;}
+#container .service h2{padding: 100px 0;
+                       font-weight: 700;}
+#container .service .icon_ser{display: flex; justify-content: space-between;
+                              width: 1100px; margin: auto;
+                              text-align: center;}
+#container .service .icon_ser img{width: 160px; height: 128px;}
+#container .service .txt h3{font-size: 30px;
+                            font-weight: 700;
+                            color: var(--darkColor);}
+#container .service .txt p{font-size: 20px;}
+#container .service .mr{width: 320px; margin-bottom: 100px;}
+
+
+
+
+
+

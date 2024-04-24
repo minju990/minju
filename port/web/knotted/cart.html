@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>Knotted</title>
+    <link rel="stylesheet" href="./css/log_css/common1.css">
+    <link rel="stylesheet" href="./css/log_css/cart.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_area">
+            <button type="button" class="header_btn" onclick="location.href='./index.html'">
+                <img src="./images/common/close.svg" alt="">
+            </button>
+            <span class="completed_tit">Cart</span>
+        </div>
+    </header>
+    <main id="container">
+        <div class="cart_sel">
+            <p class="cart_deli">일반 배송(1)</p>
+            <p class="cart_pick">픽업(0)</p>
+        </div>
+        <div class="cart_check">
+            <input type="checkbox" id="cartcheck" name="cartcheck">
+            <label for="cartcheck">전체선택</label>
+            <span class="cart_de">선택삭제</span>
+        </div>
+        <div class="cart_area">
+            <div class="order_pro_area">
+                <div class="checkbox_order">
+                    <input type="checkbox" id="cartorder" name="cartorder">
+                    <label for="cartorder">
+                        <img src="./images/common/KakaoTalk_Photo_2024-03-18-16-51-01.png" alt="밀키팜 카라멜" class="milky">
+                    </label>
+                    <span class="cart_txt">밀키팜 카라멜(핑크)</span>
+                    <div class="cart_num_btn">
+                        <div class="cart_num">
+                            <button type="button" class="cart_minus cart_btn">
+                                <img src="./images/common/minus.svg" alt="수량 빼기" class="n">
+                            </button>
+                            <p class="cart_num_txt">1</p>
+                            <button type="button" class="cart_plus cart_btn">
+                                <img src="./images/common/plus.svg" alt="수량 더하기">
+                            </button>
+                        </div>
+                        <p class="cart_pri">10,900원</p>
+                    </div>
+                    <div class="minus_btn">
+                        <button type="button" class="minus_btn_p">
+                            <img src="./images/common/close.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="cart_total_area">
+                    <div class="car_total1 car_total">
+                        <span>총 상품금액</span>
+                        <p class="price1">10,900원</p>
+                    </div>
+                    <div class="car_total2 car_total">
+                        <span>배송비</span>
+                        <p class="price2">3,000원</p>
+                    </div>
+                    <div class="car_total3 car_total">
+                        <span>총 주문금액</span>
+                        <p class="price3">13,900원</p>
+                    </div>
+                </div>
+                <div class="cart_order_btn">
+                    <button type="button" class="order_btn" onclick="location.href='./order_completed.html'">주문하기</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/cart.js"></script>
+</body>
+</html>

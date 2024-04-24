@@ -1,0 +1,93 @@
+@charset "utf-8";
+#container{
+    margin: 30px auto;
+    font-size: 18px;
+    color: var(--darkColor);
+}
+#container .login_menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#container .right{
+    color: var(--lightColor);
+}
+#container .login_border{
+    border-bottom: 1px solid #dadada;
+}
+#container #loginId{
+    padding-left: 10px;
+}
+#container #loginPw, #container #orderNum{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#container .login_box{
+    width: 70%;
+    color: var(--lightColor);
+}
+#container .pw_eye{
+    padding-top: 10px;
+}
+#container .login_auto_check{
+    margin: 20px 0;
+}
+#container #login_auto{
+    appearance: checkbox;
+    margin-right: 5px;
+}
+#container .login_btn{
+    width: 327px; height: 48px;
+    background: var(--str);
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+}
+#container .login_help{
+    display: flex;
+    justify-content: space-around;
+    color: var(--midColor);
+    padding-top: 30px;
+    font-size: 16px;
+}
+#container .login_help p::after{
+    content: "";
+    display: inline-block;
+    width: 15px; height: 10px;
+    border-right: 1px solid var(--midColor); 
+    margin-left: 5px;
+}
+#container .login_help p:last-child::after{
+    border-right: none;
+}
+#container .login_sns_txt{
+    padding: 70px 0 30px;
+    text-align: center;
+    
+}
+#container .login_sns_txt{
+    position: relative;
+}
+#container .border{
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+}
+#container .border_txt{
+    position: absolute;
+    left: 40%; bottom: 24px;
+    background: #fff;
+    padding: 0 20px;
+    color: var(--midColor);
+}
+#container .login_sns_icon{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+#container .login_sns_icon p{
+    font-size: 16px;
+    padding-top: 5px;
+}

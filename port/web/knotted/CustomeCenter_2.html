@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>CustomeCenter</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/custome.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_in">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./images/common/main_logo_1.png" alt="노티드">
+                </a>
+            </h1><!--로고 종료-->
+            <div class="header_menu">
+                <ul class="header_menu_list">
+                <li>
+                    <div class="header_my">
+                        <button type="button" class="user" onclick="location.href='./login.html'">
+                            <strong class="blind">마이페이지</strong>
+                            <img src="./images/common/user.svg" alt="마이페이지">
+                        </button>
+                    </div>
+                </li>
+                <li>
+                        <div class="header_cary">
+                            <button type="button" class="cart" onclick="location.href='./cart.html'">
+                                <strong class="blind">장바구니</strong>
+                                <img src="./images/common/shoppingBag.svg" alt="장바구니">
+                            </button>
+                        </div>
+                </li>
+                <li>
+                    <div class="header_open">
+                        <button type="button" class="btn">
+                            <strong class="blind">메뉴열기</strong>
+                                <img src="./images/common/mmenu.svg" alt="메뉴열기" class="open">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div><!-- 헤더 종료-->
+        <nav class="gnb">
+            <strong class="blind">네비게이션</strong>
+            <div class="gnb_header">
+                <ul class="gnb_header_list">
+                    <li>
+                        <div class="arrow_back_menu">
+                            <button type="button" class="arrow_back">
+                                <strong class="blind">뒤로가기</strong>
+                                <img src="./images/common/left_arrow.svg" alt="뒤로가기">
+                            </button>
+                        </div>
+                    </li><!--뒤로가기-->
+                    <li>
+                        <div class="search_menu">
+                            <strong class="blind">검색</strong>
+                            <input type="text" class="search" placeholder="상품검색">
+                                <img src="./images/common/search.svg" alt="검색" class="sear">
+                        </div>  
+                    </li><!--검색-->
+                    <li>
+                        <div class="cart_menu">
+                            <button type="button" class="cart" onclick="location.href='./cart.html'">
+                                <strong class="blind">장바구니</strong>
+                                <img src="./images/common/shoppingBag.svg" alt="장바구니">
+                            </button>
+                        </div>
+                    </li><!--장바구니-->
+                </ul>
+                <div class="top_line">
+                    <span></span>
+                </div>
+            </div><!--gnb_header 종료-->
+            <div class="search_a">
+                <div class="search_mi ">
+                    <div class="search_mi_1 zl">
+                     <h3>최근 검색어</h3>
+                     <ul> 
+                         <li><p>초코푸딩</p></li>
+                         <li><p>밀키팜 카라멜</p></li>
+                         <li><p>카야버터</p></li>
+                     </ul>
+                     </div>
+                     <div class="search_mi_2 zl">
+                         <h3>추천 카테고리</h3>
+                     <ul> 
+                         <li><p>#신메뉴</p></li>
+                         <li><p>#꾸미젤리</p></li>
+                         <li><p>#밀키팜</p></li>
+                         <li><p>#스마일 만쥬</p></li>
+                         <li><p>#리빙</p></li>
+                     </ul>
+                     </div>
+                 </div>
+                </div>  
+            <div class="gnb_inner">
+                <ul class="gnb_list">
+                    <li>
+                        <div class="tit active">
+                            <strong>Brand</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./story.html">스토리</a></li>
+                                <li><a href="./suggest.html">제안하기</a></li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Menu</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./donut.html">도넛</a></li>
+                                <li><a href="./cake.html">케이크</a></li>
+                                <li><a href="./Beverage.html">음료</a></li>
+                                <li>
+                                    <div class="pic">
+                                    <a href="./event.html">
+                                        <img src="./images/main/visual_4-1.png" alt="스트로베리">
+                                    </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>   <!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Reservation</strong>
+                        </div><!--1dep end-->
+                       <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./pick_up.html">픽업예약</a></li>
+                                <li><a href="./big_order.html">대량주문</a></li>
+                                <li><a href="./store.html">매장안내</a></li>
+                                <li>
+                                    <div class="pic">
+                                    <a href="./pick_up.html">
+                                        <img src="./images/main/picup.png" alt="픽업예약">
+                                    </a>
+                                </div>
+                                </li>
+                            </ul>
+                       </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Online Shop</strong>
+                        </div><!-- 1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./food.html">푸드</a></li>
+                                <li><a href="./desserrt.html">디저트</a></li>
+                                <li><a href="./living.html">리빙</a> </li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Event</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./event.html">Event</a></li>
+                                <li><a href="./new.html">공지사항</a></li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Help</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./CustomeCenter_1.html">자주 묻는 질문</a></li>
+                                <li><a href="./qna.html">1:1문의</a> </li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                </ul>
+            </div><!--gnb_inner end-->
+    
+        </nav>
+        </header>
+        <main id="container">
+            <div class="in">
+                <div class="tit_area">
+                    <div class="arrow_back">
+                        <button type="button" class="btn_back"> 
+                            <img src="./images/common/left_arrow.svg" alt="뒤로가기">
+                        </button>
+                    </div>
+                    <div class="tit">
+                        <h2>Custome Center</h2>
+                    </div>
+                </div> 
+                <div class="cust_sub_menu">
+                    <ul class="cust_menu_txt">
+                        <li>
+                            <a href="./qna.html">
+                                <p>Q&A</p>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="./CustomeCenter_1.html">
+                                <p>Custome Center</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <ul class="cust_list">
+                        <li><!--1-->
+                            <div class="cust_Q"><!--1 뎁 시작-->
+                                <p>Q. 모든 매장에서 대량 구매가 가능한가요?</p>
+                                <div class="cust_right_arrow">
+                                    <img src="./images/common/bottom_arrow.svg" alt="닫기">
+                                </div>
+                            </div><!--1뎁 종료-->
+                            <div class="cust_a"><!--2뎁 시작-->
+                                <p>A.<i>백화점/몰 입점 매장 등 일부 매장은 대량구매가 불가 할 수 있습니다.</i></p>
+                            </div>
+                            <div class="cust_line">
+                                <span></span>
+                            </div><!--2뎁 종료-->
+                        </li><!--1 종료-->
+                        <li><!--2-->
+                            <div class="cust_Q"><!--1 뎁 시작-->
+                                <p>Q. 구매한 제품 보관 방법을 알고싶어요</p>
+                                <div class="cust_right_arrow">
+                                    <img src="./images/common/bottom_arrow.svg" alt="닫기">
+                                </div>
+                            </div><!--1뎁 종료-->
+                            <div class="cust_a"><!--2뎁 시작-->
+                                <p>A.<i> 당일 생산하는 노티드 제품은 당일 드시는 것을 권장해드리며, 케이크의 경우 냉장 보관하여 ~2일 이내 빠르게 섭취 권장 드립니다.
+                                    디저트 구매 시 보관 방법은 안내문 부착하여 제공해드리고 있습니다.</i></p>
+                            </div>
+                            <div class="cust_line">
+                                <span></span>
+                            </div><!--2뎁 종료-->
+                        </li><!--2 종료-->
+                        <li><!--3-->
+                            <div class="cust_Q"><!--1 뎁 시작-->
+                                <p>Q. 제품 맛/알레르기 성분이 어떻게 되나요?</p>
+                                <div class="cust_right_arrow">
+                                    <img src="./images/common/bottom_arrow.svg" alt="닫기">
+                                </div>
+                            </div><!--1뎁 종료-->
+                            <div class="cust_a"><!--2뎁 시작-->
+                                <p>A. <i>제품별 원재료가 상이하여, 자세한 제품 정보는 메뉴 검색에서 확인하실 수 있습니다.</i>
+                                <i>베이커리 제품의 경우 대부분 밀, 우유, 계란 등의 재료가 사용됩니다.</i>
+                                <i>음식물로 인한 알레르기 반응이 있으실 경우 제품별 정보를 확인하신 후 섭취하시기 바랍니다.</i>
+                                <i>제품 별 정보: 매장 내 비치 또는 웹 페이지 내 [메뉴] 품목별 상세정보 확인</i></p>
+                            </div>
+                            <div class="cust_line">
+                                <span></span>
+                            </div><!--2뎁 종료-->
+                        </li><!--3 종료-->
+                        <li><!--4-->
+                            <div class="cust_Q"><!--1 뎁 시작-->
+                                <p>Q. 제품 유통기한이 어떻게 되나요?</p>
+                                <div class="cust_right_arrow">
+                                    <img src="./images/common/bottom_arrow.svg" alt="닫기">
+                                </div>
+                            </div><!--1뎁 종료-->
+                            <div class="cust_a"><!--2뎁 시작-->
+                                <p>A. <i>제조 상품의 경우 별도의 유통기한이 지정되어 있지 않으나,
+                                    노티드 도넛은 당일 생산/당일 폐기를 기준으로 신선한 제품만을 고객님께 제공하는 것을 원칙으로 하고 있음을 안내드리며
+                                    고객님께서 안전하고 최상의 품질의 제품을 즐기기 위해 구매 후 즉시 또는 당일 내 드시길 권장해 드리고 있습니다.</i></p>
+                            </div>
+                            <div class="cust_line">
+                                <span></span>
+                            </div><!--2뎁 종료-->
+                        </li><!--4 종료-->
+
+                    </ul>
+                <div class="number">
+                    <ul class="number_list">
+                        <li>
+                           <a href="./CustomeCenter_1.html">
+                            <img src="./images/common/left_arrow.svg" alt="cust_left_arrow" class="cust_left_arrow arr">
+                        </a>
+                        </li>
+                        <li>
+                           <a href="./CustomeCenter_1.html"><p>1</p></a> 
+                        </li>
+                        <li>
+                            <p class="p2">2</p>
+                        </li>
+                        <li>
+                            <img src="./images/common/right_arrow.svg" alt="right_arrow" class="cust_right_arrow arr">
+                        </li>
+                    </ul>
+                </div>
+                
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <strong class="blind">회사정보</strong>
+            <div class="footer_top">
+                <p class="footer_top_p">이용약관</p>
+                <p>개인정보처리방침</p>
+            </div>
+            <div class="footer_ma">
+                <ul class="footer_list">
+                    <li><p><strong>COMPANY INFORMATION</strong></p></li>
+                    <li><p>주식회사 지에프에프지</p></li>
+                    <li><p>서울특별시 강남구 도산대로 326</p></li>
+                    <li><p>사업자등록번호 : 248-81-00620</p></li>
+                    <li><p>통신판매업신고번호 : 2020-서울강남-02297</p></li>
+                    <li><p>대표이사 : 이준범</p></li>
+                    <li><p>고객센터 : 1800-6067</p></li>
+                    <li><p>운영시간 : 평일 9시~12시, 13시~17시(주말/공휴일 제외)</p></li>
+                    <li><p>Copyrightⓒ 2023 Knotted. All Rights Reserved.</p></li>
+                </ul>
+            </div>
+    
+        </footer>
+
+        <script src="./js/arrow_back.js" ></script>
+        <script src="./js/main.js" ></script>
+        <script src="./js/CustomeCenter.js" ></script>
+        
+
+
+</body>
+</html>

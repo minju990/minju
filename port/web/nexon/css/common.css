@@ -1,0 +1,193 @@
+@charset "utf-8";
+@font-face{
+    font-family: "nexon"; src: url(../font/NEXONLv1GothicRegular.woff) format("woff"), url(../font/NEXONLv1GothicBold.woff) format("woff");
+}
+:root{
+    --tit:#2C2C2C;
+    --txt:#666666;
+    --light:#8F8F8F;
+    --main:#0054a3;
+}
+body{
+    font-family: "nexon";
+    font-size: 1.4rem;
+    color: var(--txt);
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--tit);
+}
+#header{
+    width: 100%;
+    height: 54px;
+    position: relative;
+    z-index: 9999;
+}
+#header .gnb_ab{
+    position: absolute;
+    right: 0; top: 0;
+}
+#header .logo{
+    width: 30%;
+    max-width: 230px;
+    margin: 20px auto;
+}
+#header .mmenu{
+    width: 30px;
+    margin-top: -3px;
+}
+.nav{
+    position: fixed;
+    left: -100%; top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.nav.active{
+    left: 0;
+}
+.nav .close_btn{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.nav .gnb_wrap{padding: 30px 0;}
+.nav .gnb_list{position: relative;}
+.nav .dep1{display: flex}
+.nav .nav_tit{
+    font-size: 1.6rem;
+    color: #0e0e0e;
+    font-weight: 700;
+    width: 40%;
+    padding: 25px 20px;
+}
+.nav .lnb_wrap{
+    width: 64%;
+    height: 100vh;
+    position: absolute;
+    right: 0; top: 0;
+    color: var(--txt);
+    display: block;
+}
+.nav .lnb{
+    font-weight: 700;
+    height: 100vh;
+    padding: 10px 60px;
+    background: #ededed;
+}
+.nav .lnb li{
+    padding-bottom:20px;
+    line-height: 2.6;
+    margin-top:10px ;
+}
+.nav .nav_tit.block{background: #ededed;}
+.nav .lnb_wrap.block{display: block;}
+#footer{
+    background: #f3f3f3;
+    color: var(--light);
+    margin-top: 100px;
+    font-size: 1.2rem;
+}
+#footer .footer_logo{
+    width: 30%;
+}
+#footer .footer_social img{
+    padding-left: 30px;
+}
+#footer .footer_flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#footer .footer_menu_list{
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+#footer .footer_menu_list li{line-height: 1.5;}
+#footer .footer_menu_list li a{padding-right: 12px;}
+#footer  .footer_info_list{line-height: 1.5;}
+#footer  .footer_info_list .copy{padding: 30px 0 20px;}
+
+@media screen and (min-width:768px){
+    /* #header{height: 70px;}
+    #header .mmenu{width: 40px;}
+    .nav{left: -100%; top: 0;} */
+    #footer{font-size: 1.4rem;}
+    #footer .footer_menu_list{width: 300px;}
+    #footer .footer_flex{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    #footer .footer_menu_list{width: 80%;}
+}
+
+@media screen and (min-width:1400px){
+    .in{margin: 0 auto;}
+    #header{height: 80px;}
+    #header .header_in{
+        display: flex;
+        vertical-align: middle;
+        line-height: 80px;
+    }
+    #header .mobile_wrap{display: none;}
+    #header .logo{margin: 14px 0;}
+    .nav .gnb_header{display: none;}
+    #header .gnb_ab{
+        width: 100%;
+        position: static;
+    }
+    .nav .gnb_wrap{padding: 0;}
+    .nav{
+        position: static;
+        width: 100%;
+        background: transparent;
+    }
+    .nav .dep1{display: block;}
+    .nav .lnb{
+        font-weight: 700;
+        height: auto;
+        padding: 0;
+        background: transparent;
+    }
+    .nav .nav_tit.block{background: transparent;}
+    .nav .nav_tit{
+        font-size: 1.6rem;
+        color: #0e0e0e;
+        font-family: 700;
+        width: 80%;
+        padding: 0;
+    }
+    .nav .nav_tit a{position: relative;}
+    .nav .gnb_list{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        z-index: 10;
+        position: relative;
+    }
+    .nav .lnb_wrap{
+        width: 100%;
+        height: 600px;
+        position: static;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .nav .nav_bg{
+        background: #fff;
+        position: absolute;
+        left: 0; top: 100%;
+        width: 100%;
+        height: 400px;
+        z-index: 8;
+        border-top: 1px solid #ececec;
+        max-height: 0;
+    }
+    #footer{font-size: 2rem;}
+    #footer .footer_menu_list{width: 100%;}
+
+}

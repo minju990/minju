@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+#container{
+    padding: 0 15px;
+}
+/* #container .arrow_back img{margin-left: 15px;} */
+#container h2{
+    font-size: 30px;
+    color: var(--tit);
+    text-align: center;
+    padding: 70px 0 30px;
+    font-weight: 700;
+}
+#container .btn_back{
+    width: 100%;
+}
+#container .btn_back img{
+    position: absolute;
+    left: 0; top: 0px;
+    width: 20px; height: 20px;
+}
+#container .btn_back_s{
+    transform: translateY(50px);
+}
+#container .store_tit_area{
+    position: relative;
+    margin: 70px 0;
+}
+#container .store_tit_img{
+    width: 335px; height: 180px;
+    background: #fffae1;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#container .store_tit_img img{
+    width: 229px; height: 143px;
+    position: absolute;
+    left: 20%; bottom: -28px;
+}
+#container .store_tit{
+    position: absolute;
+    left: 16%; top: -20%;
+    font-size: 18px;
+}
+#container .store_tit h2{
+    text-align: center;
+    color: var(--tit);
+}
+#container .store_list{
+    margin-bottom: 70px;
+}
+#container .store_list .store_btn{
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    width: 158px; height: 40px;
+    margin-bottom: 30px;
+    color:var(--darkColor)
+}
+#container .store_list_btn{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#container .store_popup{
+    width: 315px; height: 290px;
+    border-radius: 20px;
+    background: #fff;
+    position: fixed;
+    margin: -160px auto;
+    z-index: 10000;
+    display: none;
+}
+#container .store_close_btn{
+    position: absolute;
+    right: 20px; top: 14px;
+}
+#container .popup_tit{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--darkColor);
+    padding-top: 50px;
+    text-align: center;
+}
+#container .store_info span{
+    font-weight: 700;
+    text-align: left;
+    padding: 0 30px 30px;  
+}
+#container .store_info_list{
+    padding: 40px 0;
+}
+#container .store_info .store_mr1{
+    padding-right: 60px;
+}
+.overlay{
+    position: fixed;
+    left: 0; top: 0;
+    right: 0; bottom: 0;
+    z-index: 999;
+    display: none;
+    background: #333333a0;
+}
+.overlay.on{
+    display: block;
+}
+#container .store_popup.on{
+    display: block;
+}

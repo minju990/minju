@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_in">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./images/common/main_logo_1.png" alt="노티드">
+                </a>
+            </h1><!--로고 종료-->
+            <div class="header_menu">
+                <ul class="header_menu_list">
+                <li>
+                    <div class="header_my">
+                        <button type="button" class="user" onclick="location.href='./login.html'">
+                            <strong class="blind">마이페이지</strong>
+                            <img src="./images/common/user.svg" alt="마이페이지">
+                        </button>
+                    </div>
+                </li>
+                <li>
+                        <div class="header_cary">
+                            <button type="button" class="cart" onclick="location.href='./cart.html'">
+                                <strong class="blind">장바구니</strong>
+                                <img src="./images/common/shoppingBag.svg" alt="장바구니">
+                            </button>
+                        </div>
+                </li>
+                <li>
+                    <div class="header_open">
+                        <button type="button" class="btn">
+                            <strong class="blind">메뉴열기</strong>
+                                <img src="./images/common/mmenu.svg" alt="메뉴열기" class="open">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div><!-- 헤더 종료-->
+        <nav class="gnb">
+            <strong class="blind">네비게이션</strong>
+            <div class="gnb_header">
+                <ul class="gnb_header_list">
+                    <li>
+                        <div class="arrow_back_menu">
+                            <button type="button" class="arrow_back">
+                                <strong class="blind">뒤로가기</strong>
+                                <img src="./images/common/left_arrow.svg" alt="뒤로가기">
+                            </button>
+                        </div>
+                    </li><!--뒤로가기-->
+                    <li>
+                        <div class="search_menu">
+                            <strong class="blind">검색</strong>
+                            <input type="text" class="search" placeholder="상품검색">
+                                <img src="./images/common/search.svg" alt="검색" class="sear">
+                        </div>  
+                    </li><!--검색-->
+                    <li>
+                        <div class="cart_menu">
+                            <button type="button" class="cart" onclick="location.href='./cart.html'">
+                                <strong class="blind">장바구니</strong>
+                                <img src="./images/common/shoppingBag.svg" alt="장바구니">
+                            </button>
+                        </div>
+                    </li><!--장바구니-->
+                </ul>
+                <div class="top_line">
+                    <span></span>
+                </div>
+            </div><!--gnb_header 종료-->
+            <div class="search_a">
+                <div class="search_mi ">
+                    <div class="search_mi_1 zl">
+                     <h3>최근 검색어</h3>
+                     <ul> 
+                         <li><p>초코푸딩</p></li>
+                         <li><p>밀키팜 카라멜</p></li>
+                         <li><p>카야버터</p></li>
+                     </ul>
+                     </div>
+                     <div class="search_mi_2 zl">
+                         <h3>추천 카테고리</h3>
+                     <ul> 
+                         <li><p>#신메뉴</p></li>
+                         <li><p>#꾸미젤리</p></li>
+                         <li><p>#밀키팜</p></li>
+                         <li><p>#스마일 만쥬</p></li>
+                         <li><p>#리빙</p></li>
+                     </ul>
+                     </div>
+                 </div>
+                </div>  
+            <div class="gnb_inner">
+                <ul class="gnb_list">
+                    <li>
+                        <div class="tit active">
+                            <strong>Brand</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./story.html">스토리</a></li>
+                                <li><a href="./suggest.html">제안하기</a></li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Menu</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./donut.html">도넛</a></li>
+                                <li><a href="./cake.html">케이크</a></li>
+                                <li><a href="./Beverage.html">음료</a></li>
+                                <li>
+                                    <div class="pic">
+                                    <a href="./event.html">
+                                        <img src="./images/main/visual_4-1.png" alt="스트로베리">
+                                    </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>   <!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Reservation</strong>
+                        </div><!--1dep end-->
+                       <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./pick_up.html">픽업예약</a></li>
+                                <li><a href="./big_order.html">대량주문</a></li>
+                                <li><a href="./store.html">매장안내</a></li>
+                                <li>
+                                    <div class="pic">
+                                    <a href="./pick_up.html">
+                                        <img src="./images/main/picup.png" alt="픽업예약">
+                                    </a>
+                                </div>
+                                </li>
+                            </ul>
+                       </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Online Shop</strong>
+                        </div><!-- 1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./food.html">푸드</a></li>
+                                <li><a href="./desserrt.html">디저트</a></li>
+                                <li><a href="./living.html">리빙</a> </li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Event</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./event.html">Event</a></li>
+                                <li><a href="./new.html">공지사항</a></li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                    <li>
+                        <div class="tit">
+                            <strong>Help</strong>
+                        </div><!--1dep end-->
+                        <div class="sub_wrap">
+                            <ul class="sub">
+                                <li><a href="./CustomeCenter_1.html">자주 묻는 질문</a></li>
+                                <li><a href="./qna.html">1:1문의</a> </li>
+                            </ul>
+                        </div><!--2dep end-->
+                    </li>
+                </ul>
+            </div><!--gnb_inner end-->
+    
+        </nav>
+        </header>
+    <main id="container">
+    <div class="content ">
+        <div class="slide_wrap swiper mySwiper">
+            <ul class="visual swiper-wrapper">
+                <li class="slide1 swiper-slide">
+                    <div class="pic">
+                        <a href="pick_up.html">
+                            <img src="./images/main/pick_up.png" alt="픽업예약">
+                        </a>
+                    </div>
+                    <div class="main_txt">
+                        <p>픽업예약시 5% 할인!</p>
+                    </div>
+                    <div class="slide1_btn">
+                        <button type="button" class="sli_btn" onclick="location.href='./pick_up.html'">
+                            픽업 예약하기
+                        </button>
+                    </div>
+                </li><!--slide1 end-->
+                <li class="slide2 swiper-slide">
+                    <div class="pic">
+                        <a href="event.html">
+                            <img src="./images/main/visual_2.png" alt="노티드 최고심 팝업스토어">
+                        </a>
+                    </div>
+                    <div class="main_txt">
+                        <a href="event.html">노티드 X 최고심 팝업스토어 OPEN!</a>
+                    </div>
+                  
+                </li><!--slide2 end-->
+                <li class="slide3 swiper-slide">
+                    <div class="pic">
+                        <a href="event.html">
+                            <img src="./images/main/visual_3.png" alt="인스타그램 이벤트">
+                        </a>
+                    </div>
+                    <div class="main_txt">
+                        <a href="event.html">인스타그램
+                            <span>팔로우 <span class="main_e">Event</span></span> </a>
+                    </div>
+                  
+                </li><!--slide3 end-->
+                <li class="slide4 swiper-slide">
+                    <div class="pic">
+                        <a href="event.html">
+                            <img src="./images/main/visual_4.png" alt="스트로베리 페스타">
+                        </a>
+                    </div>
+                    <div class="main_txt">
+                        <a href="event.html">STRAWBERRY FESTA</a>
+                    </div>
+                  
+                </li><!--slide3 end-->
+            </ul>
+            <div class="slide_pg swiper-pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+<div class="row1">
+    <div class="main_text t1">
+        <h2 class="t1_color">BEST</h2>
+        <p>노티드에서 제일 잘나가는 메뉴</p>
+    </div>
+    <div class="row1_wrap swiper mySwiper">
+        <ul class="row1_slide swiper-wrapper">
+            <li class="row1_slide1 swiper-slide">
+                <div class="row1_img">
+                    <img src="./images/main/donut_1.png" alt="카야버터">
+                </div>
+                <div class="row1_txt">
+                    <h3>카야버터</h3>
+                    <p>3,900원</p>
+                </div>
+            </li>
+            <li class="row1_slide2 swiper-slide">
+                <div class="row1_img">
+                    <img src="./images/main/donut_2.png" alt="레몬슈가">
+                </div>
+                <div class="row1_txt">
+                    <h3>레몬슈가</h3>
+                    <p>3,900원</p>
+                </div>
+            </li>
+            <li class="row1_slide3 swiper-slide">
+                <div class="row1_img">
+                    <img src="./images/main/donut_3.png" alt="얼그레이">
+                </div>
+                <div class="row1_txt">
+                    <h3>얼그레이</h3>
+                    <p>3,500원</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div><!--row1 end-->
+<div class="row1">
+    <div class="main_text t1">
+        <h2 class="t1_color">NEW</h2>
+        <p>새로 나온 도넛을 즐겨보세요</p>
+    </div>
+    <div class="row1_wrap swiper mySwiper">
+        <ul class="row1_slide swiper-wrapper">
+            <li class="row1_slide1 swiper-slide">
+                <div class="row1_img">
+                    <img src="./images/main/donut_4.png" alt="초코푸딩">
+                </div>
+                <div class="row1_txt">
+                    <h3>초코푸딩</h3>
+                    <p>3,900원</p>
+                </div>
+            </li>
+            <li class="row1_slide2 swiper-slide">
+                <div class="row1_img bl">
+                    <img src="./images/main/donut_5.png" alt="딸기우유 생크림">
+                </div>
+                <div class="row1_txt">
+                    <h3>딸기우유 생크림</h3>
+                    <p>4,200원</p>
+                </div>
+            </li>
+            <li class="row1_slide3 swiper-slide">
+                <div class="row1_img">
+                    <img src="./images/main/donut_6.png" alt="레드벨벳">
+                </div>
+                <div class="row1_txt">
+                    <h3>레드벨벳</h3>
+                    <p>4,400원</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div><!--row2 end-->
+    </div>  
+<div class="row3">
+    <div class="main_store">
+        <div class="main_text t1">
+            <h2 class="t1_color">OFF-LINE STORE</h2>
+            <p>오프라인 스토어에서 만나 보세요</p>
+        </div>
+        <div class="main_store_pic">
+            <a href="store.html">
+                <img src="./images/main/knotted_jeju.png" alt="제주점">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row4">
+    <div class="main_str">
+        <div class="main_text">
+            <h2>노티드의 상징 ‘스마일리’와 사랑스러운 ‘슈가베어’</h2>
+        </div>
+        <div class="main_strbtn">
+            <button type="button" class="str_btn" onclick="location.href='./story.html'">
+                노티드 스토리
+            </button>
+        </div>
+        <div class="main_pic">
+            <img src="./images/main/img.png" alt="노티드 스토리">
+        </div>
+    </div>
+</div>
+<div class="row5">
+    <div class="sns_wrap">
+        <div class="sns_txt">
+            <h2>노티드의 신제품, 이벤트 
+                소식을 받아보세요 </h2>
+        </div>
+        <ul class="sns_list">
+            <li>
+                <div class="main_sns_pic">
+                    <img src="./images/main/insta.png" alt="인스타그램">
+                </div>
+                <div class="main_sns_txt">
+                    <h4>INSTAGRAM</h4>
+                    <p>@cafeknotted</p>
+                </div>
+                <div class="main_sns_btn">
+                    <button type="button" class="insta" onclick="location.href='https://www.instagram.com/cafeknotted/'"> 팔로우</button>
+                </div>
+            </li>
+            <li>
+                <div class="main_sns_pic">
+                    <img src="./images/main/kakao.png" alt="카카오">
+                </div>
+                <div class="main_sns_txt">
+                    <h4>Kakaotalk</h4>
+                    <p>@cafeknotted</p>
+                </div>
+                <div class="main_sns_btn">
+                    <button type="button" class="insta" onclick="location.href='https://pf.kakao.com/_AUDFj'">채널추가</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    </main>
+    <footer id="footer">
+        <strong class="blind">회사정보</strong>
+        <div class="footer_top">
+            <p class="footer_top_p">이용약관</p>
+            <p>개인정보처리방침</p>
+        </div>
+        <div class="footer_ma">
+            <ul class="footer_list">
+                <li><p><strong>COMPANY INFORMATION</strong></p></li>
+                <li><p>주식회사 지에프에프지</p></li>
+                <li><p>서울특별시 강남구 도산대로 326</p></li>
+                <li><p>사업자등록번호 : 248-81-00620</p></li>
+                <li><p>통신판매업신고번호 : 2020-서울강남-02297</p></li>
+                <li><p>대표이사 : 이준범</p></li>
+                <li><p>고객센터 : 1800-6067</p></li>
+                <li><p>운영시간 : 평일 9시~12시, 13시~17시(주말/공휴일 제외)</p></li>
+                <li><p>Copyrightⓒ 2023 Knotted. All Rights Reserved.</p></li>
+            </ul>
+        </div>
+    
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js" ></script>
+    <script src="./js/arrow_back.js" ></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".slide_wrap", {
+        pagination: {
+          el: ".slide_pg",
+        },
+        autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+        },
+      loop: true,
+      });
+
+      var swiper = new Swiper(".row1_wrap", {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    });
+      
+    </script>
+
+</body>
+</html>

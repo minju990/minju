@@ -1,0 +1,113 @@
+@charset "utf-8";
+#container{
+    padding: 0 15px;
+    }
+/* #container .cust_txt{display: flex; margin-left: 15px;margin-bottom: 70px;} */
+#container h2{
+    font-size: 30px;
+    color: var(--tit);
+    text-align: center;
+    padding: 40px 0 30px;
+    font-weight: 700;
+}
+#container .qna_sub_menu{margin: 0 auto;}
+#container .qna_menu_txt{display: flex;
+    justify-content: space-around;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    width: 283px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 auto;
+    align-items: center;
+   
+  
+
+}
+#container .qna_menu_txt a{display: block;}
+#container .qna_menu_txt li{
+    width: calc(100%/2 - 5px);                       
+    text-align:center ;
+    display: block;
+    
+    }
+/* #container .qna_menu_txt li{
+    background: #EC6B6B;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 1.5;
+    
+   } */
+
+/* #container .qna_row1{margin-top: 70px;} */
+#container .qna_fa{position: relative;
+                    font-size: 14px;margin-top: 70px;}
+#container .qna_sel{
+    width: 30%;
+    margin-left: 70%;
+    /* position: absolute;right: 30px;top: -15px; */
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-left: 25px;
+}
+#container .qna_sel_menu{
+    background: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+    position: absolute;right: 0%;top:100%;
+    display:none ;}
+#container .qna_sel_menu li{
+
+    padding:5px;
+   text-align: center; }
+#container .qna_btn_arrow{
+    display: block;
+    position: absolute;right:3%;top:40%;
+    transform: translate(-4%, -40%);
+    width: 14px;height: 17px;
+    
+}
+
+#container .qna_tit{margin-top: 20px;
+         padding-bottom: 10px;
+         text-align: center;}
+#container .qna_text{width: 100%;
+          line-height: 35px;
+          border-radius: 20px;
+          padding-left: 20px;
+          border: 1px solid #DADADA;
+          margin-bottom: 10px;}
+#container .qna_textarea{text-align: center; margin-bottom: 20px;}
+#container .qna_txt{width: 100%;
+    height: 410px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid #DADADA;}
+#container .qna_buttom{text-align: center;margin-bottom: 70px;}
+#container .qna_buttom_list{width:240px;
+                 display: flex;
+                 margin:0 auto;
+                }
+#container .qna_btn1{margin-right: 20px;}
+#container .bl{
+    width: 107px;
+    padding: 8px 0;border-radius: 20px;
+    color: #fff;background: #EC6B6B;
+}
+/* 자바 */
+#container .qna_sel.active + .qna_sel_menu{
+    display: none;}
+#container .qna_sel.active .qna_btn_arrow{
+    transform: rotate(180deg);margin-top: -2px;
+}
+#container .qna_menu_txt li.active{
+    background: #EC6B6B;
+    border-radius: 50px;
+    padding: 2px 2px;
+    line-height: 2;
+    color: #fff;
+}

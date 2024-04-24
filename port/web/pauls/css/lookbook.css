@@ -1,0 +1,18 @@
+@charset "ute-8";
+
+.cata_tit{display: flex; justify-content: space-between;}
+.cata_tit .sub_tit{font-size: 40px;
+                   padding: 95px 0 68px;}
+.cata_tit .bread{padding-top: 60px;}
+.cata_tit .bread .active{font-weight: 700;}
+.contents .lookbook_all{display: flex; justify-content: space-between;
+                        flex-wrap: wrap;}
+.contents .lookbook_all li{width: calc(100%/3 - 20px);
+                           margin-bottom: 50px;}
+.contents .lookbook_all .mr_b{margin-bottom: 50px;}          
+.contents .lookbook_all .txt{padding-top: 20px;}
+.contents .lookbook_all .txt h3{font-weight: 700;
+                                color: var(--darkColor);
+                                margin-bottom: 10px;}
+.contents .lookbook_all .txt p{font-size: 14px;}
+                                   

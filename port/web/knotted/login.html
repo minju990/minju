@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>Knotted</title>
+    <link rel="stylesheet" href="./css/log_css/common1.css">
+    <link rel="stylesheet" href="./css/log_css/login_common_header.css">
+    <link rel="stylesheet" href="./css/log_css/login_common.css">
+    <link rel="stylesheet" href="./css/log_css/login.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_area">
+            <button type="button" class="btn_back" onclick="location.href='./index.html'">
+                <img src="./images/common/left_arrow.svg" alt="">
+            </button>
+            <span class="completed_tit">로그인</span>
+        </div>
+    </header>
+    <main id="container">
+        <div class="login_menu">
+            <p class="left"><a href="./login.html">회원 로그인</a></p>
+            <p class="right"><a href="./non-member.html">비회원 주문조회</a></p>
+        </div>
+        <form action="#">
+            <ul>
+                <li class="login_border">
+                    <label for="loginId">아이디</label>
+                    <input type="text" id="loginId" name="loginId" placeholder="영문 6~12자" class="login_box">
+                </li>
+
+                <li class="login_border">
+                    <label for="loginPw">비밀번호</label>
+                    <input type="password" id="loginPw" name="loginPw" placeholder="영문,특수문자,숫자혼합 6~12자" class="login_box">
+                    <button type="button" class="pw_eye">
+                        <img src="./images/common/eye-off.svg" alt="">
+                    </button>
+                </li>
+
+                <li class="login_auto_check">
+                    <input type="checkbox" id="login_auto" name="login_auto">
+                    <label for="login_auto">자동 로그인</label>
+                </li>
+
+                <li>
+                    <button type="button" class="login_btn" onclick="location.href='./index.html'">로그인</button>
+                </li>
+            </ul>
+        </form>
+        <div class="login_help">
+            <p>아이디 찾기</p>
+            <p>비밀번호 찾기</p>
+            <p><a href="./join_membership.html">회원가입</a></p>
+        </div>
+
+        <div class="login_sns_area">
+            <div class="login_sns_txt">
+                <span class="border"></span>
+                <span class="border_txt">또는</span>
+            </div>
+            <div class="login_sns_icon">
+                <div class="login_kakao">
+                    <a href="https://kauth.kakao.com/oauth/authorize">
+                    <img src="./images/login/kakaotalk.svg" alt="카카오톡 로그인">
+                </a>
+                    <p>카카오톡</p>
+                </div>
+                <div class="login_naver">
+                    <a href="https://nid.naver.com/">
+                    <img src="./images/login/naver.svg" alt="네이버 로그인">
+                    </a>
+                    <p>네이버</p>
+                </div>
+                <div class="login_facebook">
+                    <a href="https://facebook.com/">
+                    <img src="./images/login/Facebook.svg" alt="페이스북 로그인">
+                </a>
+                    <p>페이스북</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/log_js/login.js"></script>
+   
+    <script src="./js/arrow_back.js" ></script>
+</body>
+</html>
